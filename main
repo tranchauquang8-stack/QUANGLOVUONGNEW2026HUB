@@ -1,0 +1,111 @@
+local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+local Window = WindUI:CreateWindow({
+    Title = "QUANGLOVUONG🤓🤯☝️☝️",
+    Icon = "montitor", -- lucide icon
+    Author = "Quang",
+    Folder = "QUANGLOVUONG",
+    
+    -- ↓ This all is Optional. You can remove it.
+    Size = UDim2.fromOffset(580, 460),
+    MinSize = Vector2.new(560, 350),
+    MaxSize = Vector2.new(850, 560),
+    Transparent = true,
+    Theme = "Dark",
+    Resizable = true,
+    SideBarWidth = 200,
+    BackgroundImageTransparency = 0.42,
+    HideSearchBar = true,
+    ScrollBarEnabled = false,
+    
+   
+            Background = "rbxassetid://107284185028",
+        
+    
+    -- ↓ Optional. You can remove it.
+    User = {
+        Enabled = true,
+        Anonymous = true,
+        Callback = function()
+            print("clicked")
+        end,
+    },
+    
+    --       remove this all, 
+    -- !  ↓  if you DON'T need the key system
+    KeySystem = { 
+        -- ↓ Optional. You can remove it.
+        Key = { "QUANGLOVUONG", "THAYVAN2026","TOÀN","TRƯỜNG","ĐẠT" },
+        
+        Note = "KEY QUANGLOVUONG.",
+        
+        -- ↓ Optional. You can remove it.
+        Thumbnail = {
+            Image = "rbxassetid://107284084185028",
+            Title = "🔥🔥🔥QUANGLOVUONG🔥🔥🔥",
+        },
+        
+        -- ↓ Optional. You can remove it.
+        URL = "YOUR LINK TO GET KEY (Discord, Linkvertise, Pastebin, etc.)",
+        
+        -- ↓ Optional. You can remove it.
+        SaveKey = false, -- automatically save and load the key.
+        
+        -- ↓ Optional. You can remove it.
+        -- API = {} ← Services. Read about it below ↓
+    },
+})
+local Tab = Window:Tab({
+    Title = "🍍Script Blox Fruit🍍",
+    Icon = "solar:cursor-square-bold", -- optional
+    Locked = false,
+})
+local Button = Tab:Button({
+    Title = "NAGIHUB✳️",
+    Desc = "KEY : coresfruit",
+    Locked = false,
+    Callback = function()
+        
+    end
+})                                                                                                                                                              local Tab = Window:Tab({
+    Title = "⚙️Config⚙️",
+    Icon = "solar:cursor-square-bold", -- optional
+    Locked = false,
+})                                                                                                                                                                                                                   local Dropdown = Tab:Dropdown({
+    Title = "🌃⚙️Chỉnh Hình Nền HACK QUANGLOVUONG⚙️🖼",
+    Values = {
+        {
+            Title = "Con Mèo Cười=)",
+            Desc = "mèo hahaha",
+            Icon = "solar:cursor-square-bold",
+            Callback = function() 
+              Window:SetBackgroundImage("rbxassetid://107284084185028")
+            end
+        },
+        {
+            Title = "Mặc Định",
+            Desc = "bình thường",
+            Icon = "solar:cursor-square-bold",
+            Callback = function() 
+                Window:SetBackgroundImage("rbxassetid://id-here")
+            end
+        },
+        {
+            Title = "SẮP CÓ",
+            Desc = "",
+            Icon = "",
+            Callback = function() 
+                print("Clicked 'Edit file'")
+            end
+        },
+        { Type = "Divider", },
+        {
+            Title = "SẮP CÓ",
+            Desc = "",
+            Icon = "",
+            Callback = function() 
+                print("Clicked 'Delete file'")
+            end
+        },
+    }
+})
+    
