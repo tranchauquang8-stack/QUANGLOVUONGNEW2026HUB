@@ -1,6 +1,6 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 local Window = WindUI:CreateWindow({
-    Title = "QUANGLOVUONG🤓🤯☝️☝️",
+    Title = "QUANGLOVUONG🤓🤯☝️☝️[NEW-BETA]",
     Icon = "montitor", -- lucide icon
     Author = "Quang",
     Folder = "QUANGLOVUONG",
@@ -30,29 +30,6 @@ local Window = WindUI:CreateWindow({
         end,
     },
     
-    --       remove this all, 
-    -- !  ↓  if you DON'T need the key system
-    KeySystem = { 
-        -- ↓ Optional. You can remove it.
-        Key = { "QUANGLOVUONG", "THAYVAN2026","TOÀN","TRƯỜNG","ĐẠT" },
-        
-        Note = "KEY QUANGLOVUONG.",
-        
-        -- ↓ Optional. You can remove it.
-        Thumbnail = {
-            Image = "rbxassetid://107284084185028",
-            Title = "🔥🔥🔥QUANGLOVUONG🔥🔥🔥",
-        },
-        
-        -- ↓ Optional. You can remove it.
-        URL = "YOUR LINK TO GET KEY (Discord, Linkvertise, Pastebin, etc.)",
-        
-        -- ↓ Optional. You can remove it.
-        SaveKey = false, -- automatically save and load the key.
-        
-        -- ↓ Optional. You can remove it.
-        -- API = {} ← Services. Read about it below ↓
-    },
 })
 local Tab = Window:Tab({
     Title = "🍍Script Blox Fruit🍍",
