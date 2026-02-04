@@ -75,7 +75,15 @@ local Button = Tab:Button({
     Callback = function()
         repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer loadstring(game:HttpGet("https://raw.githubusercontent.com/shinichi-dz/phucshinyeuem/refs/heads/main/KingRuaHub.lua"))()
     end
-})   
+})
+local Button = Tab:Button({
+    Title = "Tuấn Anh IOS🍎",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
+    end
+})
 local Tab = Window:Tab({
 Title = "⚙️Config⚙️",
     Icon = "solar:cursor-square-bold", -- optional
