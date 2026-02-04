@@ -64,10 +64,18 @@ local Button = Tab:Button({
     Desc = "KEY : coresfruit",
     Locked = false,
     Callback = function()
-        
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/platformdiamond/BloxFruits-/refs/heads/main/Blox%20fruit"))()    
     end
 })                                                                                                                                                              local Tab = Window:Tab({
-    Title = "⚙️Config⚙️",
+ local Button = Tab:Button({
+    Title = "King-Rua-Hub🏅🐢",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer loadstring(game:HttpGet("https://raw.githubusercontent.com/shinichi-dz/phucshinyeuem/refs/heads/main/KingRuaHub.lua"))()
+    end
+})   
+Title = "⚙️Config⚙️",
     Icon = "solar:cursor-square-bold", -- optional
     Locked = false,
 })                                                                                                                                                                                                                   local Dropdown = Tab:Dropdown({
